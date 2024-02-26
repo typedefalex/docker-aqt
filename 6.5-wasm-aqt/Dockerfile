@@ -1,6 +1,6 @@
 # Image: stateoftheartio/qt6:6.5-wasm-aqt
 
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 MAINTAINER State Of The Art <docker@state-of-the-art.io> (@stateoftheartio)
 
 # PIP requirement like "aqtinstall==2.0.6" or url with egg file
