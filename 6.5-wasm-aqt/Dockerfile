@@ -27,7 +27,7 @@ COPY get_emsdk.sh get_qt.sh install_packages.sh /tmp/
 
 # Install emscripten
 RUN /tmp/get_emsdk.sh
-
+ 
 # Get Qt binaries with aqt
 RUN /tmp/get_qt.sh
 
